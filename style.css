@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Seven Segment', sans-serif;
+    color: #ff4081;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+canvas {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out; 
+}
+
+canvas:hover {
+    transform: scale(1.05);
+}
+
+#digitalCanvas {
+    background-color: #000;
+    font-family: 'Seven Segment', sans-serif;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+}
